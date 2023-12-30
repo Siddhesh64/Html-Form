@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Form for basic Information of Students">
+    <title>Learning About Forms</title>
+</head>
+
+<body>
+    <h1>Learning About Froms</h1><br><br>
+    <h2>Enter Your Details</h2><br>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your Name:-</label>
+            <input type="text" id="USername" name="Username" placeholder="Enter Your Name"
+            required>
+        </div>
+        <div>
+            Gender:-
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender">
+        </div>
+        <div>
+            <label for="state">Your State</label>
+            <select name="State" id="state">
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Goa">Goa</option>
+            </select>
+        </div>
+        <div>
+            <label for="about">About Yourself:-</label>
+            <textarea name="About Yourself" placeholder="About Yourself" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="aggrement">Agree our terms & conditions</label>
+            <input id="aggrement" type="checkbox" required>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
